@@ -1,0 +1,47 @@
+﻿  Source.cpp
+  Generating code
+LINK : fatal error C1001: An internal error has occurred in the compiler.
+  (compiler file 'f:\dd\vctools\compiler\utc\src\p2\main.c', line 258)
+   To work around this problem, try simplifying or changing the program near the locations listed above.
+  Please choose the Technical Support command on the Visual C++ 
+   Help menu, or open the Technical Support help file for more information
+    link!InvokeCompilerPass()+0x1ee17
+    link!InvokeCompilerPass()+0x1ee17
+    link!InvokeCompilerPass()+0x1e831
+    link!DllGetC2Telemetry()+0xf2634
+    link!CloseTypeServerPDB()+0xc5fa3
+  
+LINK : fatal error C1001: An internal error has occurred in the compiler.
+  (compiler file 'f:\dd\vctools\compiler\utc\src\p2\main.c', line 258)
+   To work around this problem, try simplifying or changing the program near the locations listed above.
+  Please choose the Technical Support command on the Visual C++ 
+   Help menu, or open the Technical Support help file for more information
+    link!InvokeCompilerPass()+0x1ee17
+    link!InvokeCompilerPass()+0x1e831
+    link!DllGetC2Telemetry()+0xf2634
+    link!CloseTypeServerPDB()+0xc5fa3
+  
+  
+LINK : fatal error LNK1000: Internal error during IMAGE::BuildImage
+  
+    Version 14.12.25835.0
+  
+    ExceptionCode            = C0000005
+    ExceptionFlags           = 00000000
+    ExceptionAddress         = 503A1E34 (4FF70000) "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\c2.dll"
+    NumberParameters         = 00000002
+    ExceptionInformation[ 0] = 00000000
+    ExceptionInformation[ 1] = 0CE9BB5C
+  
+  CONTEXT:
+    Eax    = 0CE9BB5C  Esp    = 00AFE9A8
+    Ebx    = 02E900C3  Ebp    = 00AFE9D8
+    Ecx    = 00000005  Esi    = 0CE9BB5C
+    Edx    = 087BB02C  Edi    = 00AFE9B8
+    Eip    = 503A1E34  EFlags = 00010206
+    SegCs  = 00000023  SegDs  = 0000002B
+    SegSs  = 0000002B  SegEs  = 0000002B
+    SegFs  = 00000053  SegGs  = 0000002B
+    Dr0    = 00000000  Dr3    = 00000000
+    Dr1    = 00000000  Dr6    = 00000000
+    Dr2    = 00000000  Dr7    = 00000000
